@@ -1,0 +1,27 @@
+{
+  "name": "leathernetwork",
+  "version": "1.0.0",
+  "description": "Have you been wanting to join a social media platform focused around a community with similar interests? The Leather Network is a great place for you to sign up! Share your thoughts and react to others thoughts!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marissa-a-darr/theleathernetwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marissa-a-darr/theleathernetwork/issues"
+  },
+  "homepage": "https://github.com/marissa-a-darr/theleathernetwork#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "validator": "^13.9.0"
+  }
+}

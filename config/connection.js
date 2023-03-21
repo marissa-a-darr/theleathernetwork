@@ -1,9 +1,9 @@
-const { connect, connection} = require ('mongose');
-const connectionString = 
-process.env.MONGOD_URI || '';
-connect (connectionString, { 
-  userNewUrlParser: true,
+const { connect, connection } = require("mongoose");
+const connectionString =
+  process.env.MONGOD_URI || "mongodb://localhost:27017/leathernetwork";
+connect(connectionString, {
+  useNewUrlParser: true,
   useUnifiedTopology: true,
-})
+});
 
-module.exports= connection;
+module.exports = connection;
